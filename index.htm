@@ -1,11 +1,8 @@
 <!doctype html>
 <html lang="en">
-<head>
-
-</head>
 <body>
  
-<div style="text-align: justify">
+<div>
   <h1>
     Sphere
   </h1>
@@ -17,59 +14,52 @@
     <option value="0.50">0.50</option>
   </select>
 
-<script>
-function sphere_change() {
-
-  document.getElementById("sphere_left")
-}
-</script>
-
   Left Boundary:
-    <select id=sphere_left>
-      <option>-10.00</option><option>-9.75</option><option>-9.50</option><option>-9.25</option>
-      <option>-9.00</option><option>-8.75</option><option>-8.25</option><option>-8.00</option>
-      <option>-7.75</option><option>-7.50</option><option>-7.25</option><option>-7.00</option>
-      <option>-6.75</option><option>-6.50</option><option>-6.25</option><option>-6.00</option>
-      <option>-5.75</option><option>-5.50</option><option>-5.25</option><option>-5.00</option>
-      <option>-4.75</option><option>-4.50</option><option>-4.25</option><option>-4.00</option>
-      <option>-3.75</option><option>-3.50</option><option>-3.25</option><option>-3.00</option>
-      <option>-2.75</option><option>-2.50</option><option>-2.25</option><option>-2.00</option>
-      <option>-1.75</option><option>-1.50</option><option>-1.25</option><option>-1.00</option>
-      <option>-0.75</option><option>-0.50</option><option>-0.25</option><option>+0.00</option>
-      <option>+0.25</option><option>+0.50</option><option>+0.75</option><option>+1.00</option>
-      <option>+1.25</option><option>+1.50</option><option>+1.75</option><option>+2.00</option>
-      <option>+2.25</option><option>+2.50</option><option>+2.75</option><option>+3.00</option>
-      <option>+3.25</option><option>+3.50</option><option>+3.75</option><option>+4.00</option>
-      <option>+4.25</option><option>+4.50</option><option>+4.75</option><option>+5.00</option>
-      <option>+5.25</option><option>+5.50</option><option>+5.75</option><option>+6.00</option>
-      <option>+6.25</option><option>+6.50</option><option>+6.75</option><option>+7.00</option>
-      <option>+7.25</option><option>+7.50</option><option>+7.75</option><option>+8.00</option>
-      <option>+8.25</option><option>+8.50</option><option>+8.75</option><option>+9.00</option>
-      <option>+9.25</option><option>+9.50</option><option>+9.75</option><option>+10.00</option>
-    </select>
+  <select id=sphere_left>
+    <option>-10.00</option><option>-9.75</option><option>-9.50</option><option>-9.25</option>
+    <option>-9.00</option><option>-8.75</option><option>-8.25</option><option>-8.00</option>
+    <option>-7.75</option><option>-7.50</option><option>-7.25</option><option>-7.00</option>
+    <option>-6.75</option><option>-6.50</option><option>-6.25</option><option>-6.00</option>
+    <option>-5.75</option><option>-5.50</option><option>-5.25</option><option>-5.00</option>
+    <option>-4.75</option><option>-4.50</option><option>-4.25</option><option>-4.00</option>
+    <option>-3.75</option><option>-3.50</option><option>-3.25</option><option>-3.00</option>
+    <option>-2.75</option><option>-2.50</option><option>-2.25</option><option>-2.00</option>
+    <option>-1.75</option><option>-1.50</option><option>-1.25</option><option>-1.00</option>
+    <option>-0.75</option><option>-0.50</option><option>-0.25</option><option>+0.00</option>
+    <option>+0.25</option><option>+0.50</option><option>+0.75</option><option>+1.00</option>
+    <option>+1.25</option><option>+1.50</option><option>+1.75</option><option>+2.00</option>
+    <option>+2.25</option><option>+2.50</option><option>+2.75</option><option>+3.00</option>
+    <option>+3.25</option><option>+3.50</option><option>+3.75</option><option>+4.00</option>
+    <option>+4.25</option><option>+4.50</option><option>+4.75</option><option>+5.00</option>
+    <option>+5.25</option><option>+5.50</option><option>+5.75</option><option>+6.00</option>
+    <option>+6.25</option><option>+6.50</option><option>+6.75</option><option>+7.00</option>
+    <option>+7.25</option><option>+7.50</option><option>+7.75</option><option>+8.00</option>
+    <option>+8.25</option><option>+8.50</option><option>+8.75</option><option>+9.00</option>
+    <option>+9.25</option><option>+9.50</option><option>+9.75</option><option>+10.00</option>
+  </select>
   Right Boundary:
-    <select id=sphere_right>
-      <option>-10.00</option><option>-9.75</option><option>-9.50</option><option>-9.25</option>
-      <option>-9.00</option><option>-8.75</option><option>-8.25</option><option>-8.00</option>
-      <option>-7.75</option><option>-7.50</option><option>-7.25</option><option>-7.00</option>
-      <option>-6.75</option><option>-6.50</option><option>-6.25</option><option>-6.00</option>
-      <option>-5.75</option><option>-5.50</option><option>-5.25</option><option>-5.00</option>
-      <option>-4.75</option><option>-4.50</option><option>-4.25</option><option>-4.00</option>
-      <option>-3.75</option><option>-3.50</option><option>-3.25</option><option>-3.00</option>
-      <option>-2.75</option><option>-2.50</option><option>-2.25</option><option>-2.00</option>
-      <option>-1.75</option><option>-1.50</option><option>-1.25</option><option>-1.00</option>
-      <option>-0.75</option><option>-0.50</option><option>-0.25</option><option>+0.00</option>
-      <option>+0.25</option><option>+0.50</option><option>+0.75</option><option>+1.00</option>
-      <option>+1.25</option><option>+1.50</option><option>+1.75</option><option>+2.00</option>
-      <option>+2.25</option><option>+2.50</option><option>+2.75</option><option>+3.00</option>
-      <option>+3.25</option><option>+3.50</option><option>+3.75</option><option>+4.00</option>
-      <option>+4.25</option><option>+4.50</option><option>+4.75</option><option>+5.00</option>
-      <option>+5.25</option><option>+5.50</option><option>+5.75</option><option>+6.00</option>
-      <option>+6.25</option><option>+6.50</option><option>+6.75</option><option>+7.00</option>
-      <option>+7.25</option><option>+7.50</option><option>+7.75</option><option>+8.00</option>
-      <option>+8.25</option><option>+8.50</option><option>+8.75</option><option>+9.00</option>
-      <option>+9.25</option><option>+9.50</option><option>+9.75</option><option>+10.00</option>
-    </select>
+  <select id=sphere_right>
+    <option>-10.00</option><option>-9.75</option><option>-9.50</option><option>-9.25</option>
+    <option>-9.00</option><option>-8.75</option><option>-8.25</option><option>-8.00</option>
+    <option>-7.75</option><option>-7.50</option><option>-7.25</option><option>-7.00</option>
+    <option>-6.75</option><option>-6.50</option><option>-6.25</option><option>-6.00</option>
+    <option>-5.75</option><option>-5.50</option><option>-5.25</option><option>-5.00</option>
+    <option>-4.75</option><option>-4.50</option><option>-4.25</option><option>-4.00</option>
+    <option>-3.75</option><option>-3.50</option><option>-3.25</option><option>-3.00</option>
+    <option>-2.75</option><option>-2.50</option><option>-2.25</option><option>-2.00</option>
+    <option>-1.75</option><option>-1.50</option><option>-1.25</option><option>-1.00</option>
+    <option>-0.75</option><option>-0.50</option><option>-0.25</option><option>+0.00</option>
+    <option>+0.25</option><option>+0.50</option><option>+0.75</option><option>+1.00</option>
+    <option>+1.25</option><option>+1.50</option><option>+1.75</option><option>+2.00</option>
+    <option>+2.25</option><option>+2.50</option><option>+2.75</option><option>+3.00</option>
+    <option>+3.25</option><option>+3.50</option><option>+3.75</option><option>+4.00</option>
+    <option>+4.25</option><option>+4.50</option><option>+4.75</option><option>+5.00</option>
+    <option>+5.25</option><option>+5.50</option><option>+5.75</option><option>+6.00</option>
+    <option>+6.25</option><option>+6.50</option><option>+6.75</option><option>+7.00</option>
+    <option>+7.25</option><option>+7.50</option><option>+7.75</option><option>+8.00</option>
+    <option>+8.25</option><option>+8.50</option><option>+8.75</option><option>+9.00</option>
+    <option>+9.25</option><option>+9.50</option><option>+9.75</option><option>+10.00</option>
+  </select>
  </div>
 </div>
 
@@ -110,14 +100,9 @@ function update_table() {
   var m = document.getElementById("manufacturer").value
   var b = document.getElementById("brand").value
 
-  //var table = document.createElement('table');
   var table = document.getElementById("prescription_table");
 
-  // var arrHead = new Array();
-  // arrHead = ['Sphere', 'Manufacturer', 'Brand'];
-
   var arrValue = new Array();
-
 
 
   for(var i = lselected; i < rselected + 0.25; i += sselected) {
@@ -130,31 +115,19 @@ function update_table() {
     }
   }
 
-
-  // for(var h = 0; h < arrHead.length; h++) {
-  //   var th = document.createElement('th');
-  //   th.innerHTML = arrHead[h];
-  //   th.onclick = "do_something";
-  //   tr.appendChild(th);
-  // }
-
   for(var c = 0; c <= arrValue.length - 1; c++){
     var row = table.insertRow(1);
-
-    // for(var j = 0; j < arrHead.length; j++){
-      var td = document.createElement('td');
-      var cell1 = row.insertCell(0);
-      var cell2 = row.insertCell(1);
-      var cell3 = row.insertCell(2);
-      var cell4 = row.insertCell(3);
-      cell1.innerHTML = arrValue[c][0];
-      cell2.innerHTML = arrValue[c][1];
-      cell3.innerHTML = arrValue[c][2];
-      cell4.innerHTML = '<input type="button" value="Delete Row" onclick="delete_row(this)">';
-    // }
+    
+    var td = document.createElement('td');
+    var cell1 = row.insertCell(0);
+    var cell2 = row.insertCell(1);
+    var cell3 = row.insertCell(2);
+    var cell4 = row.insertCell(3);
+    cell1.innerHTML = arrValue[c][0];
+    cell2.innerHTML = arrValue[c][1];
+    cell3.innerHTML = arrValue[c][2];
+    cell4.innerHTML = '<input type="button" value="Delete Row" onclick="delete_row(this)">';
   }
-
- // document.getElementById("prescription_table").innerHTML = table.innerHTML;
 }
 
 

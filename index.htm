@@ -241,7 +241,11 @@ function update_table() {
   for(var i = lselected; i < rselected + 0.25; i += sselected) {
     console.log([i, m, b]);
 
-    arrValue.push([parseFloat(i).toFixed(2), m, b]);
+    if (i < 0){
+      arrValue.push([parseFloat(i).toFixed(2), m, b]);
+    } else {
+      arrValue.push(["+" + parseFloat(i).toFixed(2), m, b]);
+    }
   }
 
 

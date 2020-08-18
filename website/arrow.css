@@ -1,0 +1,96 @@
+.arrow {
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.down {
+  transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+}
+
+.line {
+  width: 600px;
+  height: 10px;
+  border-bottom: 2px solid black;
+  display: inline-block;
+  padding: 3px;
+}
+
+
+
+.tick {
+  border-left: 2px solid black;
+  height: 18px;
+  top: 78px;
+  position: absolute;
+}
+.tick:nth-child(2) {
+  left: 0px;
+}
+.tick:nth-child(3) {
+  left: 40px;
+}
+.tick:nth-child(4) {
+  left: 80px;
+}
+.tick:nth-child(5) {
+  left: 120px;
+}
+.tick:nth-child(6) {
+  left: 160px;
+}
+.tick:nth-child(7) {
+  left: 200px;
+}
+.tick:nth-child(8) {
+  left: 240px;
+}
+.tick:nth-child(9) {
+  left: 280px;
+}
+.tick:nth-child(10) {
+  left: 320px;
+}
+.tick:nth-child(11) {
+  left: 360px;
+}
+.tick:nth-child(12) {
+  left: 400px;
+}
+.tick:nth-child(13) {
+  left: 440px;
+}
+.tick:nth-child(14) {
+  left: 480px;
+}
+.tick:nth-child(15) {
+  left: 520px;
+}
+.tick:nth-child(16) {
+  left: 560px;
+}
+.tick:nth-child(17) {
+  left: 600px;
+}
+
+
+.slider_reverse {
+  direction: rtl
+}
